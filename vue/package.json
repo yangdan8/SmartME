@@ -1,0 +1,58 @@
+{
+  "name": "SmartME",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.2",
+    "abp-web-resources": "^3.7.0",
+    "axios": "^0.18.0",
+    "famfamfam-flags": "^1.0.0",
+    "iview": "^2.14.3",
+    "js-cookie": "^2.2.0",
+    "register-service-worker": "^1.4.1",
+    "vue": "^2.5.16",
+    "vue-class-component": "^6.2.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/js-cookie": "^2.1.0",
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-pwa": "^3.0.0-rc.5",
+    "@vue/cli-plugin-typescript": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "@vue/component-compiler-utils": "^2.1.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "browserslist": "^4.0.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "postcss": "^7.0.1",
+    "sass": "^1.10.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.1"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
